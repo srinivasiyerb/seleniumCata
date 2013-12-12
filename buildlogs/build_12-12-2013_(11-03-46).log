@@ -1,0 +1,130 @@
+     [echo] build logged to build_12-12-2013_(11-03-46).log
+init:  duration 0 seconds
+
+setClassPath:
+[pathconvert] Set property test.classpath = D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog:D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\lib\selenium-server-standalone-2.37.0.jar
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+loadTestNG:  duration 0 seconds
+
+compile:
+     [echo] classpath:D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog:D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\lib\selenium-server-standalone-2.37.0.jar
+     [echo] compiling..........
+    [javac] D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\build.xml:37: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\IEDriverServer.exe skipped - don't know how to handle it
+    [javac] com\rl\test\selenium\Category.java added as com\rl\test\selenium\Category.class doesn't exist.
+    [javac] com\rl\test\selenium\ContactUs.java added as com\rl\test\selenium\ContactUs.class doesn't exist.
+    [javac] com\rl\test\selenium\JCatalogTest.java added as com\rl\test\selenium\JCatalogTest.class doesn't exist.
+    [javac] com\rl\test\selenium\LoginFailed.java added as com\rl\test\selenium\LoginFailed.class doesn't exist.
+    [javac] com\rl\test\selenium\Logout.java added as com\rl\test\selenium\Logout.class doesn't exist.
+    [javac] com\rl\test\selenium\MainDriver.java added as com\rl\test\selenium\MainDriver.class doesn't exist.
+    [javac] com\rl\test\selenium\NewProduct.java added as com\rl\test\selenium\NewProduct.class doesn't exist.
+    [javac] com\rl\test\selenium\PlaceOrder.java added as com\rl\test\selenium\PlaceOrder.class doesn't exist.
+    [javac] Compiling 8 source files to D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\build
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+'-d'
+'D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\build'
+'-classpath'
+'D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\build;D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog;D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\lib\selenium-server-standalone-2.37.0.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-antlr.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-bcel.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-bsf.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-log4j.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-oro.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-regexp.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-resolver.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-apache-xalan2.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-commons-logging.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-commons-net.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-jai.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-javamail.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-jdepend.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-jmf.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-jsch.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit4.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-launcher.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-netrexx.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-swing.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-testutil.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant.jar;D:\srinivasiyer\doc\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\63\1\.cp\lib\antdebug.jar;D:\srinivasiyer\doc\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\63\1\.cp\lib\remote.jar;D:\srinivasiyer\doc\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\64\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_45\lib\tools.jar;D:\srinivasiyer\doc\eclipse\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.102.0.v20130605-1544.jar'
+'-sourcepath'
+'D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\Category.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\ContactUs.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\JCatalogTest.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\LoginFailed.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\Logout.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\MainDriver.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\NewProduct.java
+    D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\src\com\rl\test\selenium\PlaceOrder.java
+compile:  duration 1 second
+
+runTests:
+   [testng] Executing 'C:\Program Files\Java\jdk1.7.0_45\jre\bin\java.exe' with arguments:
+'-ea'
+'-classpath'
+'D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog;D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\lib\selenium-server-standalone-2.37.0.jar;D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\build'
+'org.testng.TestNG'
+'@C:\Users\SRINIV~1\AppData\Local\Temp\testng1424483309673643217'
+
+The ' characters around the executable and arguments are
+not part of the command.
+   [testng] [TestNG] Running:
+   [testng]   D:\srinivasiyer\EcliWorkkSpace\SeleniumJcatalog\testng.xml
+   [testng] 
+   [testng] Started InternetExplorerDriver server (64-bit)
+   [testng] 2.37.0.0
+   [testng] Listening on port 28752
+   [testng] FAILED: Testlogin
+   [testng] org.openqa.selenium.remote.SessionNotFoundException: Unexpected error launching Internet Explorer. IELaunchURL() returned 80070490 for URL 'http://localhost:28752/' (WARNING: The server did not provide any stacktrace information)
+   [testng] Command duration or timeout: 18.31 seconds
+   [testng] Build info: version: '2.37.0', revision: 'a7c61cb', time: '2013-10-18 17:14:00'
+   [testng] System info: host: 'SRINIVAS-PC', ip: '192.168.150.55', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+   [testng] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+   [testng] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   [testng] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+   [testng] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+   [testng] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+   [testng] 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+   [testng] 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:151)
+   [testng] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+   [testng] 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+   [testng] 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
+   [testng] 	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:224)
+   [testng] 	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:214)
+   [testng] 	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:180)
+   [testng] 	at com.rl.test.selenium.JCatalogTest.openBrowser(Unknown Source)
+   [testng] 	at com.rl.test.selenium.JCatalogTest.Testlogin(Unknown Source)
+   [testng] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   [testng] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+   [testng] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   [testng] 	at java.lang.reflect.Method.invoke(Method.java:606)
+   [testng] 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+   [testng] 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+   [testng] 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+   [testng] 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+   [testng] 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+   [testng] 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+   [testng] 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+   [testng] 	at org.testng.TestRunner.run(TestRunner.java:617)
+   [testng] 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+   [testng] 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+   [testng] 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+   [testng] 	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+   [testng] 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+   [testng] 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+   [testng] 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+   [testng] 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+   [testng] 	at org.testng.TestNG.run(TestNG.java:1057)
+   [testng] 	at org.testng.TestNG.privateMain(TestNG.java:1364)
+   [testng] 	at org.testng.TestNG.main(TestNG.java:1333)
+   [testng] 
+   [testng] 
+   [testng] ===============================================
+   [testng]     JCatalog test
+   [testng]     Tests run: 1, Failures: 1, Skips: 0
+   [testng] ===============================================
+   [testng] 
+   [testng] 
+   [testng] ===============================================
+   [testng] JCatalog Test suite
+   [testng] Total tests run: 1, Failures: 1, Skips: 0
+   [testng] ===============================================
+   [testng] 
+   [testng] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7b41aa25: 4234 ms
+   [testng] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@432c4c7a: 81 ms
+   [testng] [TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 762 ms
+   [testng] [TestNG] Time taken by org.testng.reporters.XMLReporter@70096e0b: 391 ms
+   [testng] [TestNG] Time taken by org.testng.reporters.jq.Main@b6a6597: 2220 ms
+   [testng] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3b39c41d: 281 ms
+   [testng] The tests failed.
+runTests:  duration 37 seconds
+BUILD SUCCESSFUL
+
+BUILD SUCCESSFUL

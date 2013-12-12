@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JCatalog Test suite]">
+  <test name="JCatalog test(failed)">
+    <classes>
+      <class name="com.rl.test.selenium.JCatalogTest">
+        <methods>
+          <include name="Testlogin"/>
+        </methods>
+      </class> <!-- com.rl.test.selenium.JCatalogTest -->
+    </classes>
+  </test> <!-- JCatalog test(failed) -->
+</suite> <!-- Failed suite [JCatalog Test suite] -->
