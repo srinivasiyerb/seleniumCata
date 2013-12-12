@@ -1,4 +1,4 @@
-<project name="Selenium-Ant_test" default="report" basedir=".">
+<project name="Selenium-Ant_test" default="runtests" basedir=".">
     <property name="build.dir" value="${basedir}/build"/>
     <property name="lib.dir" value="${basedir}/lib"/>
     <property name="src.dir" value="${basedir}/src"/>
