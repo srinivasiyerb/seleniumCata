@@ -4,8 +4,8 @@ package com.rl.test.selenium;
 
 import org.openqa.selenium.By;
 //import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-//import org.openqa.selenium.ie.InternetExplorerDriver;
+//import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import org.testng.annotations.Test;
 
@@ -13,7 +13,7 @@ public class JCatalogTest extends MainDriver{
 	
 	public static void openBrowser(){
 		
-		driver = new HtmlUnitDriver();
+		driver = new InternetExplorerDriver();
 		driver.get("http://192.168.103.30:8080/catalog/");		
 	}
 	
