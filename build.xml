@@ -25,19 +25,21 @@
     <target name="loadTestNG" depends="setClassPath">
         <taskdef resource="testngtasks" classpath="${test.classpath}"/>
     </target>
-    <!--
+    
 	<target name="init">
         <mkdir dir="${build.dir}"/>
         <tstamp> 
             <format property="timestamp" pattern="dd-MM-yyyy_(HH-mm-ss)"/>
         </tstamp>
+       <!--
         <property name="build.log.dir" location="${basedir}/buildlogs"/>
         <mkdir dir="${build.log.dir}"/>
         <property name="build.log.filename" value="build_${timestamp}.log"/>
         <record name="${build.log.dir}/${build.log.filename}" loglevel="verbose" append="false"/>
         <echo message="build logged to ${build.log.filename}"/>
+  	-->
     </target>
-	-->
+	
 	<target name="clean">
 	        <echo message="deleting existing build directory"/>
 	        <delete dir="${build.dir}"/>
