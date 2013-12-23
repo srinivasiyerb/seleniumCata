@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="SRINIVAS-PC" name="com.relevance.lab.My_Frst_Maven.JCatalogTest" tests="10" failures="0" timestamp="23 Dec 2013 10:22:40 GMT" time="2.726" errors="0">
+  <testcase name="Testlogin" time="1.743" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="TestproductList" time="0.076" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="TestcategoryOne" time="0.114" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="Testcategorytwo" time="0.248" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="Testcategorythree" time="0.095" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="Testcategoryfour" time="0.04" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="Testcontactus" time="0.111" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="Testplaceorder" time="0.118" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="TestloginFailed" time="0.131" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+  <testcase name="Testlogout" time="0.034" classname="com.relevance.lab.My_Frst_Maven.JCatalogTest"/>
+</testsuite>

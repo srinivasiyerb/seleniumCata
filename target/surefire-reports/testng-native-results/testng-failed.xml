@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.relevance.lab.My_Frst_Maven.JCatalogTest">
+        <methods>
+          <include name="Testcategorythree"/>
+          <include name="Testlogout"/>
+          <include name="TestcategoryOne"/>
+          <include name="TestloginFailed"/>
+          <include name="TestproductList"/>
+          <include name="Testlogin"/>
+          <include name="Testcategoryfour"/>
+          <include name="Testplaceorder"/>
+          <include name="Testcontactus"/>
+          <include name="Testcategorytwo"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
