@@ -45,7 +45,7 @@
 	        <delete dir="${build.dir}"/>
 	    </target>
     
-	<target name="compile" depends="clean,setClassPath,loadTestNG">
+	<target name="compile" depends="clean,setClassPath,init,loadTestNG">
         <echo message="classpath:${test.classpath}"/>
         <echo message="compiling.........."/>
         <javac destdir="${build.dir}" srcdir="${test.dir}" classpath="${test.classpath}"/>
