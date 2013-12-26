@@ -12,14 +12,14 @@
 
 <distributionManagement>
   <repository>
-     <id>deploymentTestAuto</id>
-     <name>Internal Releases</name>
-     <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
+     <id>Test_Repo</id>
+     <name>TestRepo</name>
+     <url>http://localhost:8081/nexus/content/repositories/Test_Repo/</url>
   </repository>
   <snapshotRepository>
-     <id>TestAuto</id>
-     <name>Internal Releases</name>
-     <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
+     <id>snapshots</id>
+     <name>Snapshots</name>
+     <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
