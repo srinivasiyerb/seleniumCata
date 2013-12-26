@@ -10,6 +10,20 @@
   <name>My_Frst_Maven</name>
   <url>http://maven.apache.org</url>
 
+<distributionManagement>
+  <repository>
+     <id>deploymentTestAuto</id>
+     <name>Internal Releases</name>
+     <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>TestAuto</id>
+     <name>Internal Releases</name>
+     <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
