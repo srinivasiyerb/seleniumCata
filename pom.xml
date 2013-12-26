@@ -11,11 +11,7 @@
   <url>http://maven.apache.org</url>
 
 <distributionManagement>
-  <repository>
-     <id>Test_Repo</id>
-     <name>TestRepo</name>
-     <url>http://localhost:8081/nexus/content/repositories/Test_Repo/</url>
-  </repository>
+  
   <snapshotRepository>
      <id>snapshots</id>
      <name>Snapshots</name>
