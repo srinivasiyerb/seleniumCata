@@ -10,16 +10,6 @@
   <name>My_Frst_Maven</name>
   <url>http://maven.apache.org</url>
 
-<distributionManagement>
-  
-  <snapshotRepository>
-     <id>snapshots</id>
-     <name>Snapshots</name>
-     <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
-  </snapshotRepository>
-</distributionManagement>
-
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
