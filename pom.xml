@@ -7,6 +7,15 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
+<distributionManagement>
+	<repository>
+    <id>Test_Repo</id>
+    <url>http://localhost:8081/nexus/content/repositories/Test_Repo</url>
+  </repository>
+	
+</distributionManagement>
+
+
   <name>My_Frst_Maven</name>
   <url>http://maven.apache.org</url>
 
