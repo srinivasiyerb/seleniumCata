@@ -8,10 +8,10 @@
   <packaging>jar</packaging>
 
 <distributionManagement>
-	<repository>
-    <id>Test_Repo</id>
-    <url>http://localhost:8081/nexus/content/repositories/Test_Repo</url>
-  </repository>
+<snapshotRepository>
+    <id>TestRepo</id>
+    <url>http://localhost:8081/nexus/content/repositories/TestRepo</url>
+  </snapshotRepository>
 	
 </distributionManagement>
 
