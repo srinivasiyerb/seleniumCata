@@ -5,8 +5,8 @@
   <groupId>com.relevance.lab</groupId>
   <artifactId>My_Frst_Maven</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
-
+  <packaging>war</packaging>
+<!--
 <distributionManagement>
 <snapshotRepository>
     <id>TestRepo</id>
@@ -14,7 +14,7 @@
   </snapshotRepository>
 	
 </distributionManagement>
-
+-->
 
   <name>My_Frst_Maven</name>
   <url>http://maven.apache.org</url>
@@ -22,7 +22,30 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+<build>
+<pluginManagement>
+<plugin>
+<groupId>org.sonatype.plugins</groupId>
+<artifactId>nexus-staging-maven-plugin</artifactId>
+<version>1.3</version>
+<executions>
+<execution>
+<id>default-deploy</id>
+<phase>deploy</phase>
+<goals>
+<goal>deploy</goal>
+</goals>
+</execution>
+</executions>
+<configuration>
+<serverId>nexus</serverId>
+<nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+<skipStaging>true</skipStaging>
+</configuration>
+</plugin>
+</pluginManagement>
+</build>
+  
   <dependencies>
   
   <dependency>
