@@ -35,7 +35,7 @@
           <nexusUrl>http://192.168.150.55:8081/nexus/</nexusUrl>
        
         </configuration>
-<plugin>	
+</plugin>	
 </plugins>
  </build> 
   <dependencies>
