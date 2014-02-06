@@ -23,7 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 <build>
-<pluginManagement>
+
 <plugin>
 <groupId>org.sonatype.plugins</groupId>
 <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -43,7 +43,7 @@
 <skipStaging>true</skipStaging>
 </configuration>
 </plugin>
-</pluginManagement>
+
 </build>
   
   <dependencies>
