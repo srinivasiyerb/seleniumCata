@@ -31,7 +31,7 @@
 <version>1.5.1</version>
 <executions>
 <execution>
-<id>test</id>
+<id>default-deploy</id>
 <phase>deploy</phase>
 <goals>
 <goal>deploy</goal>
