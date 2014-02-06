@@ -39,7 +39,7 @@
 </execution>
 </executions>
 <configuration>
-<serverId>nexus</serverId>
+<serverId>test</serverId>
 <nexusUrl>http://192.168.150.55:8081/nexus/</nexusUrl>
 <skipStaging>true</skipStaging>
 </configuration>
